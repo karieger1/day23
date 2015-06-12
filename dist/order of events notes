@@ -1,0 +1,12 @@
+order of events:
+
+--submit-- grabs 
+	(image url and image caption)
+		stores in (imagemodel)
+			add new model to imageList
+			--triggers add event --
+			(generates html that includes 
+			image and caption
+			-uses template defined in html)
+			add html to page
+
